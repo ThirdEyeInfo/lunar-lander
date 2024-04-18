@@ -9,5 +9,6 @@
     * conda install swig -y
     * pip install -r requirements.txt
     * python setup.py install
-- Run below python command to train your Lunar Module
+- Run below python command to train your Lunar Module and wait until below message appears
     * python src\trainer.py
+  ![image](https://github.com/ThirdEyeInfo/lunar-lander/assets/93641638/40c5e8c4-f24d-44f3-b33e-c7e97a69d170)
