@@ -1,7 +1,7 @@
 import torch
 import gymnasium as gym
 import numpy as np
-from components.Agent import Agent
+from src.components.Agent import Agent
 from src.components.Constants import number_episodes, maximum_number_timesteps_per_episode, scores_on_100_episodes, epsilon_ending_value, epsilon_decay_value, epsilon
 
 env = gym.make('LunarLander-v2')

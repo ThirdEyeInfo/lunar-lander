@@ -3,7 +3,8 @@ import io
 import base64
 import imageio
 from IPython.display import HTML, display
-from gym.wrappers.monitoring.video_recorder import VideoRecorder
+from src.trainer import agent
+import gymnasium as gym
 
 def show_video_of_model(agent, env_name):
     env = gym.make(env_name, render_mode='rgb_array')

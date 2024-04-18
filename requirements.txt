@@ -3,4 +3,9 @@ gymnasium[atari, accept-rom-license]
 gymnasium[box2d]
 torch
 
+imageio
+ipython
+imageio[ffmpeg]
+imageio[pyav]
+
 -e .

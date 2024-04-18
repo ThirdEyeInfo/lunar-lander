@@ -5,7 +5,7 @@ import torch.nn.functional as F
 import numpy as np
 from src.components.Network import Network
 from src.components.ReplayMemory import ReplayMemory
-from components.Constants import learning_rate, replay_buffer_size, minibatch_size, discount_factor, interpolation_parameter
+from src.components.Constants import learning_rate, replay_buffer_size, minibatch_size, discount_factor, interpolation_parameter
 
 class Agent():
 
