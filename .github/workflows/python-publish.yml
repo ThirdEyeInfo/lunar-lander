@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    - name: Update System
+      run: sudo apt update
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
@@ -28,7 +30,7 @@ jobs:
         python -m pip install --upgrade pip
         ls -al
         pwd
-        pip install swig
+        sudo apt install swig
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Train Lunar Lander Module
       run: python render.py
