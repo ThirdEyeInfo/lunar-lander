@@ -29,6 +29,6 @@ jobs:
         ls -al
         pwd
         pip install swig
-        if [ -f requirement.txt ]; then pip install -r requirement.txt; fi
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Train Lunar Lander Module
       run: python render.py
